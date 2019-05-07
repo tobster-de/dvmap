@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DisposableRefStruct.cs" />
     <Compile Include="NullableRef.cs" />
     <Compile Include="PositionalAndPropertyPatterns.cs" />
     <Compile Include="Program.cs" />
