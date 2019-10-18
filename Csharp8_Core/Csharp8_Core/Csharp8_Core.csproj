@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>App8_Core3</AssemblyName>
+    <RootNamespace>AppCore</RootNamespace>
+  </PropertyGroup>
+
+</Project>

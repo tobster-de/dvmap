@@ -11,9 +11,11 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            StaticLocalFunction slf = new StaticLocalFunction();
+            //StaticLocalFunction slf = new StaticLocalFunction();
+            //slf.MethodWithStaticLocalFunction(4711);
 
-            slf.MethodWithStaticLocalFunction(4711);
+            ReadonlyMembers rm = new ReadonlyMembers();
+            rm.UseReadonlyMember();
         }
     }
 }
